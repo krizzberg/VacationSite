@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet"
+    type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">World Travel Agent</h1>
+      <img class="img-responsive" src="img/taking-vacation-good-for-business.jpg">
+      <div id="survey questions">
+        <form>
+          <h1 class="question-title">Time to start <span class="username"></span>, if you had your choice on weather for your vacation which would you prefer:</h1>
+          <select class="form-control" id="weather">
+            <option value="0"></option>
+            <option value="1">Warm tropical and muggy</option>
+            <option value="2">Snow Powder days for skiing</option>
+            <option value="3">Moderate 70 to 85 degrees and sunny</option>
+            <option value="4">Lots of Rain</option>
+            <option value="5">Dry Desert Heat</option>
+          </select>
+          <h1 class="question-title"><span class="username"></span> What season would you like to leave for your vacation?</h1>
+          <select class="form-control" id="vaca">
+            <option value="0"></option>
+            <option value="2">Summer</option>
+            <option value="3">Spring</option>
+            <option value="4">Winter</option>
+            <option value="1">Fall</option>
+          </select>
+          <h1 class="question-title"><span class="username"></span> What activities do you enjoy while on vacation?</h1>
+          <select class="form-control" id="activities">
+            <option value="0"></option>
+            <option value="1">Boating/Yachting</option>
+            <option value="2">Pure Poolside Relaxation, no movement</option>
+            <option value="3">Outdoor activites, rafting and camping</option>
+            <option value="4">Cultural experiences</option>
+          </select>
+          <h1 class="question-title"><span class="username"></span> How many people do you want to be near on your vacation?</h1>
+          <select class="form-control" id="people">
+            <option value="0"></option>
+            <option value="1">Few to no people at all</option>
+            <option value="2">Locals only</option>
+            <option value="3">Medium size city</option>
+            <option value="4">Metropolis</option>
+          </select>
+          <h1 class="question-title"><span class="username"></span> What kind of culture would you like to experience and how.</h1>
+          <select class="form-control" id="culture">
+            <option value="0"></option>
+            <option value="1">Stay lonsome and experience no culture</option>
+            <option value="2">Try some local food at a dinner party with strangers</option>
+            <option value="3">Hire a guide or join a tourism group for close personal experiences</option>
+            <option value="4">Fully imense yourself in the food, music, and religion of the native place</option>
+          </select>
+          <br>
+          <button type="submit" class="btn-lg btn-danger">Send me on vacation!</button>
+        </form>
+      </div>
+      <div id="results">
+        <div id="zero">
+          <h1 class="results-title">We will decide for you.</h1>
+          <p class="results-body">If you dont answer we shall send you where we please</p>
+          <img class="event-image img-responsive" src="img/aruba-0.jpg" alt="zero">
+        </div>
+        <div id="warm">
+            <h1 class="results-title">Warm Weather Locations</h1>
+            <p class="results-body">For one that wants tiki drinks and relaxtion under the sun.</p>
+            <h1 class="event-title">Tropical Islands</h1>
+            <p class="event-body">Bermuda , East Indies, Pacific Rim Islands</p>
+            <img class="event-image img-responsive" src="img/tropical.jpg" alt="tropical">
+            <h1 class="event-title">Peru, Amazon Jungle, Southern California</h1>
+            <p class="event-body">These amazing places have plenty of quiet places to sink away from the real world.</p>
+            <img class="event-image img-responsive" src="img/peru.jpg" alt="peru">
+            <h1 class="event-title">Hawaii</h1>
+            <p class="event-body">Hawaii has all the best things to offer on a warm stay.</p>
+            <img class="event-image img-responsive" src="img/hawaii.jpg" alt="hawaii">
+          </div>
+        <div id="intensity">
+            <h1 class="results-title">How you intend to vacation</h1>
+            <p class="results-body">This is to determine the level of avtivities you would like on vacation</p>
+            <h1 class="event-title">Very Intense</h1>
+            <p class="event-body">Mountain Biking, Snowboarding, Sky diving</p>
+            <img class="event-image img-responsive" src="img/sky-diving.jpg" alt="sky-diving">
+            <h1 class="event-title">Moderate</h1>
+            <p class="event-body">Moderate Activities include paddle boarding, snorkling, hiking.</p>
+            <img class="event-image img-responsive" src="img/SUP.jpg" alt="standuppaddleboard">
+            <h1 class="event-title">Non Active Relaxation</h1>
+            <p class="event-body">Poolside cocktails, bird watching, steam rooming.</p>
+            <img class="event-image img-responsive" src="img/spa.jpg" alt="spa">
+        </div>
+        <div id="Tourism">
+            <h1 class="results-title">Aspects of new tourism</h1>
+            <p class="results-body">So much to do so little time</p>
+            <h1 class="event-title">Not Much Tourism</h1>
+            <p class="event-body">Flip Flops, Poolside, Hot tub</p>
+            <img class="event-image img-responsive" src="img/cocktail.jpg" alt="cocktail">
+            <h1 class="event-title">Moderate Tourism</h1>
+            <p class="event-body">Guided tour through neighborhoods and city.</p>
+            <img class="event-image img-responsive" src="img/tour-bus.jpg" alt="tourbus">
+            <h1 class="event-title">Historical Research</h1>
+            <p class="event-body">Visit Museums and Monuments.</p>
+            <img class="event-image img-responsive" src="img/museum.jpg" alt="museum">
+        </div>
+    </div>
